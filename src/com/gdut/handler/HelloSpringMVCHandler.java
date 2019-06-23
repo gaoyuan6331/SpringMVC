@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloSpringMVCHandler {
 	@RequestMapping("")
 	public String index() {
+		int x = 10;
 		return "index";
 	}
 	@RequestMapping("/my/Handler")
