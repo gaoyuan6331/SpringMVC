@@ -11,6 +11,7 @@ public class HelloSpringMVCHandler {
 	}
 	@RequestMapping("/my/Handler")
 	public String welcome() {
+		// test for comment
 		return "success";
 	}
 }
